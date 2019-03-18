@@ -1,0 +1,18 @@
+{
+    "autoload": {
+    	"psr-4": {
+        	"Lsclh\\Wsdebug\\": "src/"
+    	}
+    },
+    "name": "lsclh/wsdebug",
+    "description": "摘自fashop的debug工具 适配easyswoole3.x",
+    "type": "library",
+    "authors": [
+        {
+            "name": "cheng",
+            "email": "1019759208@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
