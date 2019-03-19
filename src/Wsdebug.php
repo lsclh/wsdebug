@@ -19,8 +19,12 @@ use EasySwoole\Utility\Str;
 
 class Wsdebug{
     use Singleton;
+    private $wsapi = '';
+    
+    private function __construct($wsapi = '127.0.0.1:9501'){
+        $this->wsapi = $wsapi;
+    }
 
-    private $wsapi = 'ws://ydty.clh.mobi:9501';
     /**
      * @param mixed  $message
      * @param string $type 用于前端标记
